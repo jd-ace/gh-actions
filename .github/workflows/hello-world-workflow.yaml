@@ -7,6 +7,5 @@ jobs:
         steps:
             - name: checkout repo code
               uses: actions/checkout@v4
-              
-            - run: echo "$(cat hello_world.txt)"
-  
+
+            - run: echo "$(cat data/hello_world.txt)"
